@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invio.CodeAnalysis", "src\Invio.CodeAnalysis\Invio.CodeAnalysis.csproj", "{B95EFF00-66CD-4BA7-8986-42205D6C6ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invio.CodeAnalysis.Test", "test\Invio.CodeAnalysis.Test\Invio.CodeAnalysis.Test.csproj", "{CE2054DF-22B5-4E87-859D-C40DF372F386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invio.CodeAnalysis.Example", "test\Invio.CodeAnalysis.Example\Invio.CodeAnalysis.Example.csproj", "{1B301EEF-4F28-4532-A084-FA6389317ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95EFF00-66CD-4BA7-8986-42205D6C6ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95EFF00-66CD-4BA7-8986-42205D6C6ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95EFF00-66CD-4BA7-8986-42205D6C6ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95EFF00-66CD-4BA7-8986-42205D6C6ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2054DF-22B5-4E87-859D-C40DF372F386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2054DF-22B5-4E87-859D-C40DF372F386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2054DF-22B5-4E87-859D-C40DF372F386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2054DF-22B5-4E87-859D-C40DF372F386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B301EEF-4F28-4532-A084-FA6389317ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B301EEF-4F28-4532-A084-FA6389317ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Invio.CodeAnalysis</id>
+    <version>0.0.1</version>
+    <authors>Invio Inc. &lt;developers@invioinc.com&gt;</authors>
+    <owners>Invio Inc. &lt;developers@invioinc.com&gt;</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Invio core CodeAnalysis rules and helpers for implementing them.</description>
+    <tags>roslyn codeanalysis</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="Microsoft.CodeAnalysis.Common" version="2.8.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard1.3\Invio.CodeAnalysis.dll" target="analyzers\dotnet\cs\" />
+  </files>
+</package>

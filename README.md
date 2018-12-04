@@ -1,5 +1,9 @@
 # Invio.CodeAnalysis
 
+[![Build status](https://ci.appveyor.com/api/projects/status/wdu5alkh7imerf9p?svg=true)](https://ci.appveyor.com/project/invio/invio-codeanalysis)
+[![NuGet](https://img.shields.io/nuget/v/Invio.CodeAnalysis.svg)](https://www.nuget.org/packages/Invio.CodeAnalysis/)
+[![codecov](https://codecov.io/gh/invio/Invio.CodeAnalysis/branch/master/graph/badge.svg)](https://codecov.io/gh/invio/Invio.CodeAnalysis)
+
 This library is a collection of general purpose code analysis rules for the [Roslyn Compiler](https://github.com/dotnet/roslyn) utilized by other Invio libraries, as well as helper functions for developing rules.
 
 _Note: This library is currently a proof of concept, and contains only a single code analysis rule._

@@ -35,3 +35,4 @@ When adding code analysis rules it is sometimes necessary to debug behavior agai
     * Create a `.Analyzer` library specific to [Invio.QueryProvider](https://github.com/invio/Invio.QueryProvider) that depends on this library.
 * Add additional boilerplate support for creating syntax and operation specific code analysis rules.
 * Add more rules.
+* Create a nuget package for Invio.CodeAnalysis.Test which includes helpers for testing analysis rules.

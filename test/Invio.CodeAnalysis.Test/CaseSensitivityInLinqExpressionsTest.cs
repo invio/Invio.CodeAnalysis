@@ -413,5 +413,28 @@ namespace Invio.CodeAnalysis.Test {
 
             await VerifyCSharpDiagnostic(testCode);
         }
+
+        [Theory]
+        [InlineData("==")]
+        [InlineData("!=")]
+        public async Task NullCheckOK(String op) {
+            var testCode = $@"
+                using System;
+                using System.Linq;
+
+                namespace TestCase {{
+                    public class Example {{
+                        public IQueryable<TestType> Go(IQueryable<TestType> queryable) {{
+                            return queryable.Where(t => t.Value {op} null);
+                        }}
+                    }}
+
+                    public class TestType {{
+                        public String Value {{ get; set; }}
+                    }}
+                }}";
+
+            await VerifyCSharpDiagnostic(testCode);
+        }
     }
 }

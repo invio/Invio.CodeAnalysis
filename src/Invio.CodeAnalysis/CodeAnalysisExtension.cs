@@ -45,6 +45,26 @@ namespace Invio.CodeAnalysis {
             }
         }
 
+        public static Boolean IsNullValue(this IOperation operation) {
+            if (operation == null) {
+                throw new ArgumentNullException(nameof(operation));
+            }
+
+            while (operation != null) {
+                switch (operation) {
+                    case ILiteralOperation literal:
+                        return !literal.ConstantValue.HasValue || literal.ConstantValue.Value == null;
+                    case IConversionOperation conversion:
+                        operation = conversion.Operand;
+                        continue;
+                    default:
+                        return false;
+                }
+            }
+
+            return false;
+        }
+
         public static Type LoadType(this INamedTypeSymbol typeSymbol) {
             return typeSymbol.TryLoadType(out var type) ? type : null;
         }

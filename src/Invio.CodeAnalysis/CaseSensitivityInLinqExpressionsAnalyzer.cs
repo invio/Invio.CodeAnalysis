@@ -89,6 +89,7 @@ namespace Invio.CodeAnalysis {
                     (op.OperatorKind == BinaryOperatorKind.Equals ||
                         op.OperatorKind == BinaryOperatorKind.NotEquals) &&
                     (op.LeftOperand.IsOfType<String>() || op.RightOperand.IsOfType<String>()) &&
+                    !(op.LeftOperand.IsNullValue() || op.RightOperand.IsNullValue()) &&
                     IsInLinqExpression(op)) {
 
                     context.ReportDiagnostic(Diagnostic.Create(

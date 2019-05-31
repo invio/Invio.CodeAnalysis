@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Invio.CodeAnalysis</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <authors>Invio Inc. &lt;developers@invioinc.com&gt;</authors>
     <owners>Invio Inc. &lt;developers@invioinc.com&gt;</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

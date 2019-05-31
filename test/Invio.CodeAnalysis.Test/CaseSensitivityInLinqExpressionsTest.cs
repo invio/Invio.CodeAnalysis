@@ -41,7 +41,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 8, 57)
@@ -71,7 +71,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 8, 57)
@@ -101,7 +101,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 8, 57)
@@ -131,7 +131,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 8, 57)
@@ -161,7 +161,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 8, 57)
@@ -191,7 +191,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 8, 57)
@@ -222,7 +222,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 9, 57)
@@ -252,7 +252,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 8, 57)
@@ -283,7 +283,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 9, 57)
@@ -314,7 +314,7 @@ namespace Invio.CodeAnalysis.Test {
 
             var expected = new DiagnosticResult {
                 Id = Rules.CaseSensitivityInLinqExpressionsRuleId,
-                Severity = DiagnosticSeverity.Error,
+                Severity = DiagnosticSeverity.Info,
                 Locations = new[]
                 {
                     new DiagnosticResultLocation("Test0.cs", 9, 57)

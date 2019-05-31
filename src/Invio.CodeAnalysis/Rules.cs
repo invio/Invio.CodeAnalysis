@@ -38,9 +38,10 @@ namespace Invio.CodeAnalysis {
                 CaseSensitivityInLinqExpressionsRuleId,
                 "Use of implicit SQL collation behavior in Linq statement.",
                 "A string comparison in a linq statement that does not explicitly specify case " +
-                "handling may result in unexpected behavior.",
+                "handling may result in unexpected behavior. However it may be necessary for " +
+                "performance optimization.",
                 CategoryName1000,
-                DiagnosticSeverity.Error,
+                DiagnosticSeverity.Info,
                 true
             );
 
